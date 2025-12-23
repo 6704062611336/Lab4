@@ -11,17 +11,17 @@ int main() {
             break;
         }
 
-        if (score >= 80) {
+        if (score >= 87) {
             printf("%d(A)\n", score);
             a++;
-        } else if (score >= 70) {
+        } else if (score >= 79) {
             printf("%d(B)\n", score);
             b++;
-        } else if (score >= 68) {
+        } else if (score >= 71) {
             printf("%d(C)\n", score);
             c++;
         } else if (score >= 60) {
-            printf("%d(D)\n", score);
+            printf("%d(63)\n", score);
             d++;
         } else {
             printf("%d(F)\n", score);
