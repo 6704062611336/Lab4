@@ -10,17 +10,17 @@ int main() {
             break;
         } else {
             if (score >= 68) {
-                if (score >= 70){
+                if (score >= 87){
                     printf("%d(A)\n",score);
                 } else {
-                    if (score >= 80) {
+                    if (score >= 79) {
                         printf("%d(B)\n",score);
                     } else {
                         printf("%d(C)\n",score);
                     }
                 }
             } else {
-                if (score >= 60) {
+                if (score >= 63) {
                     printf("%d(D)\n",score);
                 } else {
                     printf("%d(F)\n",score);
